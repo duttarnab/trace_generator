@@ -1,0 +1,122 @@
+{
+  "policy_store_id": "c704c0ba2427dd9444f8b212e79e50bec68c7f7226",
+  "generated_date": "2026-11-01T11:34:05.128748+00:00",
+  "files": {
+    "metadata.json": {
+      "size": 380,
+      "checksum": "sha1:39e0a3663aa4c0b6f28db6edf8f750f9646d2e57"
+    },
+    "policies/admin_full_access.cedar": {
+      "size": 118,
+      "checksum": "sha1:387b509dff7e7b2c217e0429774a84a67d582681"
+    },
+    "policies/auditor_forbid_mutation.cedar": {
+      "size": 222,
+      "checksum": "sha1:e6dd4f3992f0bf5615a104081a571b4fa8a0018e"
+    },
+    "policies/auditor_read_monitor_search.cedar": {
+      "size": 205,
+      "checksum": "sha1:cf146ee2bc6858db0da4ddced4ab71f9545d7c0b"
+    },
+    "policies/contractor_forbid_secret.cedar": {
+      "size": 154,
+      "checksum": "sha1:db3f2860200a849ad62fcbd0d8803a5c330a5bbd"
+    },
+    "policies/contractor_read_app.cedar": {
+      "size": 197,
+      "checksum": "sha1:dfc2d7208bad0263b45136256240846f42384d2a"
+    },
+    "policies/developer_execute_app.cedar": {
+      "size": 246,
+      "checksum": "sha1:174301f00ea83c4a21c86c0b9303ec9bc9696259"
+    },
+    "policies/developer_forbid_secret_write.cedar": {
+      "size": 183,
+      "checksum": "sha1:b6b97ca531b95f2c62581d1789400251d0ae6c0d"
+    },
+    "policies/editor_forbid_share_execute.cedar": {
+      "size": 181,
+      "checksum": "sha1:8249b2e2949df45851eaa6d59cbc5c18b05c502b"
+    },
+    "policies/editor_rw_secret.cedar": {
+      "size": 191,
+      "checksum": "sha1:328636e7287271e260c31a57ceaa125bf5a748c1"
+    },
+    "policies/finance_rw_app.cedar": {
+      "size": 212,
+      "checksum": "sha1:458e675aabf6c46375a8be2fa0b2fd0e32f5b61f"
+    },
+    "policies/forbid_public_network_non_admin.cedar": {
+      "size": 204,
+      "checksum": "sha1:1ad65df8d96e66f45149c75c3bb0c8de8e00a78f"
+    },
+    "policies/guest_forbid_all.cedar": {
+      "size": 117,
+      "checksum": "sha1:2c644ce8bd95990c381d54f9b2b0acbbfdbd1020"
+    },
+    "policies/hr_read_secret.cedar": {
+      "size": 160,
+      "checksum": "sha1:25349d9add92931c1c07633db03c89d74f5ba540"
+    },
+    "policies/intern_forbid_mutation.cedar": {
+      "size": 199,
+      "checksum": "sha1:64614c70f24e3cd232743f44ca0af63490f750e5"
+    },
+    "policies/intern_read_app.cedar": {
+      "size": 162,
+      "checksum": "sha1:d6c88ac338162f191019003905ff3a6d26bfd8d9"
+    },
+    "policies/manager_app_access.cedar": {
+      "size": 264,
+      "checksum": "sha1:2035d69a846e093a6155b303d818abe918b8a5e1"
+    },
+    "policies/manager_read_secret.cedar": {
+      "size": 170,
+      "checksum": "sha1:13551a004d3d7e6ad4022806fe65a8fd2c5d2cf7"
+    },
+    "policies/security_officer_monitor.cedar": {
+      "size": 231,
+      "checksum": "sha1:6de62f4c3568baf768031189bf6064bbf378b2fe"
+    },
+    "policies/student_forbid_secret.cedar": {
+      "size": 148,
+      "checksum": "sha1:f29654e2278fca2906908a5bd8978bc1d34d3409"
+    },
+    "policies/student_read_app.cedar": {
+      "size": 164,
+      "checksum": "sha1:bf65cd21a8cb53108788d56c97a49da0bf178400"
+    },
+    "policies/support_forbid_secret_write.cedar": {
+      "size": 179,
+      "checksum": "sha1:f2a636309cae0dd38e409ba06de86cd4a0060636"
+    },
+    "policies/support_monitor_search.cedar": {
+      "size": 221,
+      "checksum": "sha1:df921b15549dfff47810f197d84ece5d67501ae5"
+    },
+    "policies/teacher_forbid_share.cedar": {
+      "size": 148,
+      "checksum": "sha1:82c64bc964b26d0b1b390c11b53d7d48bc8d0cae"
+    },
+    "policies/teacher_read_secret.cedar": {
+      "size": 170,
+      "checksum": "sha1:904ab249cf152dae52879de0a14dd7eb618fe359"
+    },
+    "policies/teacher_write_secret.cedar": {
+      "size": 172,
+      "checksum": "sha1:20b2ad85ad4fab02ccf661ec58e32e60cf8cd9bb"
+    },
+    "policies/viewer_forbid_write.cedar": {
+      "size": 217,
+      "checksum": "sha1:a188997c4d4baaebb2e3c75c8d56a6142688d0f7"
+    },
+    "policies/viewer_read_app.cedar": {
+      "size": 188,
+      "checksum": "sha1:59143a34340799bc6e1468445da3818dc77c334c"
+    },
+    "schema.cedarschema": {
+      "size": 3765,
+      "checksum": "sha1:13eb18027f85cb4a634e881189aac21d3cfcb548"
+    }
+  }
+}

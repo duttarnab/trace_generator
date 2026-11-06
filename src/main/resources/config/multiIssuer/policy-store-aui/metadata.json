@@ -1,0 +1,11 @@
+{
+    "cedar_version": "4.9.0",
+    "policy_store": {
+        "id": "36ccd2e612a9d3543487b6e25283f5403bed9d1d5f32",
+        "name": "admin_ui_2_0",
+        "description": "Gluu Flex Admin UI Policy Store",
+        "version": "0.0.0",
+        "created_date": "2026-03-06T11:21:44.511404+00:00",
+        "updated_date": "2026-03-26T10:32:00.653446+00:00"
+    }
+}

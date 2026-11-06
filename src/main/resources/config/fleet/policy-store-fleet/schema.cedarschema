@@ -1,0 +1,32 @@
+namespace Fleet {
+  entity Agent = { team: String };
+
+  entity T0Svc0 = { locked: Bool };
+  entity T0Svc1 = { locked: Bool };
+  entity T0Svc2 = { locked: Bool };
+  entity T0Svc3 = { locked: Bool };
+  entity T0Svc4 = { locked: Bool };
+  entity T1Svc0 = { locked: Bool };
+  entity T1Svc1 = { locked: Bool };
+  entity T1Svc2 = { locked: Bool };
+  entity T1Svc3 = { locked: Bool };
+  entity T1Svc4 = { locked: Bool };
+  entity T2Svc0 = { locked: Bool };
+  entity T2Svc1 = { locked: Bool };
+  entity T2Svc2 = { locked: Bool };
+  entity T2Svc3 = { locked: Bool };
+  entity T2Svc4 = { locked: Bool };
+  entity PayrollExport = { locked: Bool };
+  entity SharedWiki = { locked: Bool };
+  entity SharedCalendar = { locked: Bool };
+
+  action "Invoke" appliesTo {
+    principal: [Agent],
+    resource: [T0Svc0, T0Svc1, T0Svc2, T0Svc3, T0Svc4, T1Svc0, T1Svc1, T1Svc2, T1Svc3, T1Svc4, T2Svc0, T2Svc1, T2Svc2, T2Svc3, T2Svc4, PayrollExport, SharedWiki, SharedCalendar]
+  };
+
+  action "Read" appliesTo {
+    principal: [Agent],
+    resource: [T0Svc0, T0Svc1, T0Svc2, T0Svc3, T0Svc4, T1Svc0, T1Svc1, T1Svc2, T1Svc3, T1Svc4, T2Svc0, T2Svc1, T2Svc2, T2Svc3, T2Svc4, PayrollExport, SharedWiki, SharedCalendar]
+  };
+}

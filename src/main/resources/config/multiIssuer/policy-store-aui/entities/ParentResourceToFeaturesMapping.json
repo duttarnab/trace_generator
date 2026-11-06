@@ -1,0 +1,408 @@
+[
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Dashboard"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "License"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "MAU"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Security"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Settings"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Webhooks"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Assets"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "AuditLogs"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "SystemAndMonitoring"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Clients"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Scopes"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Keys"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "AuthenticationServerConfiguration"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Logging"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "SSA"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Authentication"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "ConfigApiConfiguration"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Session"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "AuthServerAndConfiguration"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Users"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "IdentityAndAccess"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Scripts"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "IdentityAndAccess"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Attributes"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "IdentityAndAccess"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Cache"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Persistence"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "SMTP"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "SCIM"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "FIDO"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "SAML"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "Lock"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "Service"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "AdminUISession"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "EssentialAdminUIScopes"
+            }
+        ],
+        "tags": {}
+    },
+    {
+        "uid": {
+            "type": "GluuFlexAdminUIResources::Features",
+            "id": "AdminUIEssential"
+        },
+        "attrs": {},
+        "parents": [
+            {
+                "type": "GluuFlexAdminUIResources::ParentResource",
+                "id": "EssentialAdminUIScopes"
+            }
+        ],
+        "tags": {}
+    }
+]
